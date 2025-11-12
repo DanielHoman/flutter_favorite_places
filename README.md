@@ -26,7 +26,7 @@ This project provides essential, hands-on experience with advanced Flutter techn
 
 * **Local Database Management (SQLite):**
     * **Data Persistence:** Setting up and managing a local database using the **`sqflite`** package.
-    * **CRUD Operations:** Performing **C**reate, **R**ead, **U**pdate, and **D**elete operations on structured data models within the local database.
+    * **CRUD Operations:** Performing **C**reate, **R**ead operations on structured data models within the local database.
     * **Database Utility Functions:** Writing functions to connect to, initialize, and query the local database.
 
 * **Advanced State Management (Riverpod):**
