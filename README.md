@@ -10,7 +10,7 @@ This application allows users to save and manage their **favorite locations**, c
 * **Device Integration:** Accesses the **Camera** to allow users to take and store images directly within the app.
 * **Geographical Data:** Automatically retrieves and stores the place's **real-time location** (latitude and longitude) upon saving.
 * **Interactive Map View:** Displays the saved locations on an **interactive map** (e.g., using the `Maps_flutter` package).
-* **Local Data Persistence:** All places are stored securely in a **local SQLite database** on the device, ensuring data persistence.
+* **Local Data Persistence:** All places are stored in a **local SQLite database** on the device, ensuring data persistence.
 * **Detailed Views:** Users can tap on a saved place to view its **details**, including the image and a map showing its exact location.
 
 ---
@@ -22,15 +22,15 @@ This project provides essential, hands-on experience with advanced Flutter techn
 * **Accessing Native Device Features:**
     * **Camera Integration:** Using the `image_picker` package to access the device's camera and retrieve image files.
     * **Location Services:** Utilizing the `location` or `geolocator` package to fetch the user's current GPS coordinates.
-    * **Map Integration:** Implementing and configuring the `Maps_flutter` package to display and interact with geographical data.
+    * **Map Integration:** Implementing and configuring the `google_maps_flutter` package to display and interact with geographical data.
 
 * **Local Database Management (SQLite):**
     * **Data Persistence:** Setting up and managing a local database using the **`sqflite`** package.
     * **CRUD Operations:** Performing **C**reate, **R**ead, **U**pdate, and **D**elete operations on structured data models within the local database.
     * **Database Utility Functions:** Writing functions to connect to, initialize, and query the local database.
 
-* **Advanced State Management (Provider/Riverpod):**
-    * **Efficient Data Handling:** Utilizing a robust state management solution (like **Riverpod**) to manage the large collection of places and efficiently update the UI across multiple screens (e.g., the places list, the add screen, and the detail screen).
+* **Advanced State Management (Riverpod):**
+    * **Efficient Data Handling:** Utilizing a robust state management solution (**Riverpod**) to manage the large collection of places and efficiently update the UI across multiple screens (e.g., the places list, the add screen, and the detail screen).
     * **Asynchronous State:** Managing state that depends on asynchronous operations (like fetching location, taking a picture, or reading/writing to the database).
 
 * **Form Handling and Validation:**
